@@ -31,7 +31,7 @@ It allows users to search for any city and fetch current weather details like **
 **1. Search Weather:**
   - Users enter a city name in the input field.
   - The city is sent to the backend using fetch() from frontend JS.
-    
+
 **2. Backend Request:**
   - The Express route /weather receives the request.
   - It calls the OpenWeatherMap API using request in weatherData.js.
@@ -39,6 +39,12 @@ It allows users to search for any city and fetch current weather details like **
 **3. Data Display:**
   - The temperature (in Celsius), condition, and icons are returned and displayed on the UI.
   - If the user grants location access, weather is fetched automatically for their current location using Geolocation + OpenStreetMap APIs.
+
+---
+
+## Screenshot
+
+![Screenshot 2025-06-04 175720](https://github.com/user-attachments/assets/0216caf0-929a-4ca0-a919-bcbbee77d4f6)
 
 ---
 
